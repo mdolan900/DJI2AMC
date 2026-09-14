@@ -1,0 +1,88 @@
+{
+  "UUID": "00000000000000000000000000000000",
+  "fileType": "Plan",
+  "geoFence": {
+    "circles": [],
+    "polygons": [],
+    "version": 2
+  },
+  "groundStation": "QGroundControl",
+  "mission": {
+    "cruiseSpeed": 15,
+    "firmwareType": 12,
+    "globalPlanAltitudeMode": 3,
+    "hoverSpeed": 10,
+    "items": [
+      {
+        "autoContinue": true,
+        "command": 530,
+        "doJumpId": 1,
+        "frame": 2,
+        "groupTag": 0,
+        "params": [0, 2, null, null, null, null, null],
+        "type": "SimpleItem"
+      },
+      {
+        "MISSION_ITEM_ID": "0",
+        "autoContinue": true,
+        "command": 178,
+        "doJumpId": 2,
+        "frame": 2,
+        "groupTag": 0,
+        "params": [1, 10, -1, 0, 0, 0, 0],
+        "type": "SimpleItem"
+      },
+      {
+        "MISSION_ITEM_ID": "3",
+        "TransectStyleComplexItem": {
+          "CameraCalc": {
+            "AdjustedFootprintFrontal": 6.0452,
+            "AdjustedFootprintSide": 13.6017,
+            "CameraName": "Sony ILX-LR1 - 24mm",
+            "DistanceToSurface": 30.48,
+            "DistanceToSurfaceRelative": true,
+            "FixedOrientation": true,
+            "FocalLength": 24,
+            "FrontalOverlap": 80,
+            "ImageDensity": 0.47705176767676777,
+            "ImageHeight": 6336,
+            "ImageWidth": 9504,
+            "Landscape": true,
+            "MinTriggerInterval": 2,
+            "SensorHeight": 23.8,
+            "SensorWidth": 35.7,
+            "SideOverlap": 70,
+            "ValueSetIsDistance": true,
+            "version": 1
+          },
+          "CameraShots": 0,
+          "CameraTriggerInTurnAround": true,
+          "FlightSpeed": 3.0226,
+          "FollowTerrain": false,
+          "HoverAndCapture": false,
+          "Items": [],
+          "Refly90Degrees": false,
+          "TurnAroundDistance": 5,
+          "VisualTransectPoints": [],
+          "version": 1
+        },
+        "angle": 0,
+        "complexItemType": "survey",
+        "entryLocation": 1,
+        "flyAlternateTransects": false,
+        "polygon": [[0.0, 0.0], [0.0, 0.001], [0.001, 0.001], [0.001, 0.0]],
+        "splitConcavePolygons": false,
+        "type": "ComplexItem",
+        "version": 5
+      }
+    ],
+    "plannedHomePosition": [0, 0, 0],
+    "vehicleType": 2,
+    "version": 2
+  },
+  "rallyPoints": {
+    "points": [],
+    "version": 2
+  },
+  "version": 1
+}
